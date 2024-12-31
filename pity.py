@@ -64,6 +64,8 @@ if B:
             val5="Tu es certain a 100 % d'avoir un 5*"
         else:
             val5=str(round(rep5[calc]*100,4))+" %"
-st.title("Voila la probabilité que tu aies le 5* de ton choix : "+val)
-st.title("Voila la probabilité que tu aies un 5* : "+val5)
+st.title("Voila la probabilité que tu aies le 5* de ton choix : ")
+st.title(val)
+st.title("Voila la probabilité que tu aies un 5* : ")
+st.title(val5)
     
