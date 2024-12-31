@@ -65,7 +65,7 @@ if B:
         else:
             val5=str(round(rep5[calc]*100,4))+" %"
 st.title("Voila la probabilité que tu aies le 5* de ton choix : ")
-st.title(val)
+st.title(":blue["+val+"]")
 st.title("Voila la probabilité que tu aies un 5* : ")
-st.title(val5)
+st.title(":blue["+val5+"]")
     
